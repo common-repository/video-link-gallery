@@ -1,0 +1,215 @@
+.video-link-gallery .pswp {
+    z-index:100000;
+}
+
+.video-link-gallery .pswp__zoom-wrap {
+  text-align: center;
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+}
+.video-link-gallery .wrapper {
+  line-height: 0;
+  width: 90%;
+  max-width: 900px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: left;
+  z-index: 1045;
+}
+
+@media (min-aspect-ratio: 1/1) {
+    .video-link-gallery .wrapper {
+        width: 95%;
+        max-width: 920px;
+        margin-top: 10%;
+    }
+}
+@media (min-aspect-ratio: 5/4) {
+    .video-link-gallery .wrapper {
+        width: 90%;
+        max-width: 900px;
+        margin-top: 10%;
+    }
+}
+@media (min-aspect-ratio: 4/3) {
+    .video-link-gallery .wrapper {
+        width: 90%;
+        max-width: 900px;
+        margin-top: 10%;
+    }
+}
+@media (min-aspect-ratio: 3/2) {
+    .video-link-gallery .wrapper {
+        width: 90%;
+        max-width: 900px;
+        margin-top: 3%;
+    }
+}
+@media (min-aspect-ratio: 16/9) {
+    .video-link-gallery .wrapper {
+        width: 90%;
+        max-width: 900px;
+        margin-top: 2%;
+    }
+}
+@media (min-aspect-ratio: 18/9) {
+    .video-link-gallery .wrapper {
+        width: 85%;
+        max-width: 900px;
+        margin-top: 0;
+    }
+}
+@media (min-aspect-ratio: 20/9) {
+    .video-link-gallery .wrapper {
+        width: 80%;
+        max-width: 720px;
+        margin-top: 0;
+    }
+}
+@media (min-aspect-ratio: 16/9) and (max-height: 240px) {
+    .video-link-gallery .wrapper {
+        max-width: 300px;
+    }
+}
+@media (min-aspect-ratio: 16/9) and (min-height: 240px) {
+    .video-link-gallery .wrapper {
+        max-width: 400px;
+    }
+}
+@media (min-aspect-ratio: 16/9) and (min-height: 300px) {
+    .video-link-gallery .wrapper {
+        max-width: 520px;
+    }
+}
+@media (min-aspect-ratio: 16/9) and (min-height: 360px) {
+    .video-link-gallery .wrapper {
+        max-width: 640px;
+    }
+}
+@media (min-aspect-ratio: 16/9) and (min-height: 400px) {
+    .video-link-gallery .wrapper {
+        max-width: 720px;
+    }
+}
+@media (min-aspect-ratio: 16/9) and (min-height: 440px) {
+    .video-link-gallery .wrapper {
+        max-width: 780px;
+    }
+}
+@media (min-aspect-ratio: 16/9) and (min-height: 480px) {
+    .video-link-gallery .wrapper {
+        max-width: 860px;
+    }
+}
+@media (min-aspect-ratio: 16/9) and (min-height: 520px) {
+    .video-link-gallery .wrapper {
+        max-width: 920px;
+    }
+}
+@media (min-aspect-ratio: 16/9) and (min-height: 540px) {
+    .video-link-gallery .wrapper {
+        max-width: 960px;
+    }
+}
+@media (min-aspect-ratio: 4/3) and (min-height: 600px) {
+    .video-link-gallery .wrapper {
+        margin-top: 4%;
+    }
+}
+@media (min-aspect-ratio: 4/3) and (min-height: 680px) {
+    .video-link-gallery .wrapper {
+        margin-top: 7%;
+    }
+}
+
+@media (min-aspect-ratio: 4/3) and (min-height: 720px) {
+    .video-link-gallery .wrapper {
+        margin-top: 10%;
+    }
+}
+
+@media (max-aspect-ratio: 1/1) {
+    .video-link-gallery .wrapper {
+        width: 95%;
+        max-width: 920px;
+        margin-top: 10%;
+    }
+}
+
+@media (max-aspect-ratio: 1/1) and (min-width: 960px) {
+    .video-link-gallery .wrapper {
+        width: 100%;
+        max-width: 960px;
+        margin-top: 10%;
+    }
+}
+
+@media (max-aspect-ratio: 4/5) {
+    .video-link-gallery .wrapper {
+        width: 100%;
+        max-width: 960px;
+        margin-top: 15%;
+    }
+}
+@media (max-aspect-ratio: 3/4) {
+    .video-link-gallery .wrapper {
+        width: 100%;
+        max-width: 960px;
+        margin-top: 25%;
+    }
+}
+@media (max-aspect-ratio: 2/3) {
+    .video-link-gallery .wrapper {
+        width: 100%;
+        max-width: 960px;
+        margin-top: 40%;
+    }
+}
+@media (max-aspect-ratio: 9/16) {
+    .video-link-gallery .wrapper {
+        width: 100%;
+        max-width: 960px;
+        margin-top: 60%;
+    }
+}
+@media (max-aspect-ratio: 9/18) {
+    .video-link-gallery .wrapper {
+        width: 100%;
+        max-width: 960px;
+        margin-top: 80%;
+    }
+}
+@media (max-aspect-ratio: 9/20) {
+    .video-link-gallery .wrapper {
+        width: 100%;
+        max-width: 960px;
+        margin-top: 100%;
+    }
+}
+
+.video-link-gallery .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 5px;
+    height: 0;
+    width: 100%;
+}
+.video-link-gallery .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.video-link-gallery video {
+  width: 100% !important;
+  height: auto !important;
+}
+

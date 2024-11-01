@@ -1,0 +1,25 @@
+{
+    "name": "coderey/video-link-gallery",
+    "description": "Video Link Gallery",
+    "keywords": ["wordpress", "plugin", "video-gallery", "youtube", "vimeo"],
+    "license": "GPL-2.0+",
+    "type": "project",
+    "require": {
+        "php": "^7.0",
+        "ext-curl" : "*"
+    },
+    "require-dev": {
+
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Coderey\\VideoLinkGallery\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    }
+}
